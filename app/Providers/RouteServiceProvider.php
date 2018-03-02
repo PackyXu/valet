@@ -23,8 +23,12 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-
+        /*
+        *   定义全局路由参数约束
+        *   pattern('id', '[0-9]+')
+        *   pattern(['id'=>'[0-9]+','name'=>'[a-zA-Z0-9]+']);
+        */
+        //Route::pattern('id', '[0-9]+');
         parent::boot();
     }
 

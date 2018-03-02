@@ -79,6 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
+                    {{ $sites }}
                     Laravel 5.6 for Valet
                 </div>
 
